@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <section class="calculator">
+    <form>
+      <input type="text" id="screen">
+    </form>
+    <div class="buttons">
+      <button type="button" class="btn yellow" onclick="buttonclick('*')">*</button>
+      <button type="button" class="btn yellow" onclick="buttonclick('/')">/</button>
+      <button type="button" class="btn yellow" onclick="buttonclick('+')">+</button>
+      <button type="button" class="btn yellow" onclick="buttonclick('-')">-</button>
+
+      <button type="button" class="btn green" onclick="buttonclick(1)">1</button>
+      <button type="button" class="btn green" onclick="buttonclick(2)">2</button>
+      <button type="button" class="btn green" onclick="buttonclick(3)">3</button>
+      <button type="button" class="btn green" onclick="buttonclick(4)">4</button>
+      <button type="button" class="btn green" onclick="buttonclick(5)">5</button>
+      <button type="button" class="btn green" onclick="buttonclick(6)">6</button>
+      <button type="button" class="btn green" onclick="buttonclick(7)">7</button>
+      <button type="button" class="btn green" onclick="buttonclick(8)">8</button>
+      <button type="button" class="btn green" onclick="buttonclick(9)">9</button>
+      <button type="button" class="btn green" onclick="buttonclick(0)">0</button>
+      <button type="button" class="btn green" onclick="buttonclick('.')">.</button>
+
+      <button type="button" class="btn gry" onclick="equate()">=</button>
+      <button type="button" class="cee" onclick="clearDisplay()">c</button>
+    </div>
+  </section>
+
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
